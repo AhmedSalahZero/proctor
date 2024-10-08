@@ -1,0 +1,22 @@
+.custom_input {
+    display: inline-block;
+    width: 50%;
+
+}
+
+.custom_span {
+    display: block;
+}
+
+.custom_search {
+    margin-left: 43px;
+
+}
+
+.copied_btn_class {
+    height: 28px;
+    padding-left: 4px;
+    padding-bottom: 0px;
+    padding-right: 0;
+    padding-top: 0px;
+}

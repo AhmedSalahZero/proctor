@@ -1,0 +1,201 @@
+body{
+	background-color: #f9f9f9;
+}
+.header{
+	padding-top:30px;
+}
+
+
+/* Login Page Start*/
+.login-page{
+	background: url('../img/background.jpg');
+	background-size: cover;
+	min-height: 640px;
+	margin-top: 30px;
+}
+
+.form-holder {
+    margin: 10px;
+    margin-top: 80px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.67);
+    border-radius: 10px;
+    border: 1px #fff solid;
+}
+
+.form-holder h1 {
+    text-align: center;
+    font-size: 30px;
+    color: #145eae;
+}
+
+.form-holder h2 {
+    font-size: 20px;
+}
+
+.form-holder p {
+	margin:25px 0;
+}
+.form-holder button{
+	margin-top: 30px;
+	background:#145eae;
+    border-color: #0b3869;
+}
+/* Login Page End */
+
+/* Test Page Start */
+.slider-main .slider {
+    width: 85%;
+    border: 1px #125294 solid;
+    height: 25px;
+}
+
+.slider-main div {
+    display: inline-block;
+    box-sizing:border-box;
+    float: left;
+}
+.slider-main .slider > .bar{
+	background: #0078be;
+	height: 100%;
+}
+
+.slider-main .result {
+    width: 15%;
+    background: #125294;
+    color: #FFF;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+}
+
+p.head-slider-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #e23232;
+}
+
+.test-head-right{
+	text-align: right;
+}
+.test-head-right .time-remaning span {
+    padding: 4px;
+    border: 1px gray solid;
+    background: #FFF;
+    border: inset 1px;
+}
+
+.btn.blue{
+	background: #145eae;
+    border-color: #0b3869;
+}
+
+hr {
+    margin: 0;
+    height: 10px;
+    border: 0;
+    background: #125294;
+    margin-top: 10px;
+}
+
+hr.blur {
+    background: rgba(18, 82, 148, 0.43);
+}
+
+.test-page > .container{
+	min-height: 300px;
+}
+
+.test-page h1{
+	font-size: 25px;
+	font-weight: normal;
+}
+.test-page .colored{
+	color: #e23232;
+}
+
+
+
+.actions-holder {
+    background: #edf4fc;
+    padding:20px 0;
+}
+
+.actions-holder .prev-btn {
+    float: left;
+}
+
+.actions-holder .next-btn {
+    float: right;
+}
+
+
+.container.working-test {padding-top: 20px;min-height: 400px;}
+.question-number {
+    font-weight: bold;
+}
+
+.question-text {
+    padding: 20px 10px;
+    border: 1px gray solid;
+    background: #FFF;
+    font-weight: bold;
+}
+
+.answer-head {
+    font-weight: bold;
+}
+
+.answer-points {
+    font-weight: bold;
+}
+
+.working-test form > div {
+    margin: 20px 0;
+}
+
+.answers-holder label {
+    display: block;
+    margin: 10px 0;
+}
+
+.answers-holder input {
+    margin-right: 10px;
+}
+
+
+
+.questions-holder-radio ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    overflow-x: scroll;
+}
+
+.questions-holder-radio ul li {
+    display: inline-block;
+    padding: 3px 6px;
+    height: 34px;
+    width: 50px;
+    line-height: 24px;
+    color: #FFF;
+    margin: 0 10px;
+    background: #ef9b01;
+    border: 1px gray solid;
+}
+.questions-holder-radio ul li.done {
+    background: #00c541;
+}
+
+.questions-holder-radio ul li.current {
+    background: #0150ef;
+}
+
+.modal-body h1 {
+    color: #145eae;
+    font-size: 25px;
+}
+
+
+/* Test Page end */

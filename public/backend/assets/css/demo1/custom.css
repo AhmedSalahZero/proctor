@@ -1,0 +1,66 @@
+
+        .custom_input
+        {
+            width: 100%;
+        }
+        .custom_input_a
+        {
+            display: inline-block;
+            width: 78%;
+        }
+        .custom_input_div
+        {
+            flex-basis: 35%;
+            margin-bottom: 32px;
+        }
+        .margin-right
+        {
+            margin-right: 112px;
+        }
+        .degree_div
+        {
+            flex-basis: 100%;
+            max-width: 32%;
+            position: relative;
+            top: 23px;
+
+        }
+        .question_div
+        {
+            flex-basis: 100%;
+            max-width: 68%;
+
+        }
+        .check_div
+        {
+            top:2%;
+        }
+        .custom_input2
+        {
+            width: 54px;
+            cursor: pointer;
+        }
+        .degree_input
+        {
+            width: 20%;
+            display: inline-block;
+
+        }
+        @media only screen and (max-width: 600px) {
+            .degree_input {
+                width: 39%;
+            }
+        }
+        .btn_plus
+        {
+            width: 4%;
+            margin-left: 34%;
+            margin-bottom: 2%;
+            padding: 1px 0 1px 0;
+            height: 28px;
+
+        }
+        .btn_remove
+        {
+
+        }

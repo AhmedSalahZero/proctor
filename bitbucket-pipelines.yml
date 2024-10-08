@@ -1,0 +1,14 @@
+image: php:7.2
+
+pipelines:
+  branches:
+
+    master:
+      - step:
+         name: Production
+         caches:
+          - composer
+         script:
+          - apt-get update && apt-get install -y unzip
+          - apt-get install -y openssh-client
+          - ssh nilefuture@128.199.58.17 'bash -s' < execute.sh
